@@ -7,13 +7,13 @@ function Typed() {
     <div className="container">
       <h1>
         Hi there Welcome to Mike's Profile. <br />
-        What i do{" "}
+        What i do <br />
         <span style={{ color: "#EF134F" }}>
           <Typewriter
             words={["Frontend", "Backend", "Hosting", "Full-stack !"]}
             loop={20}
             cursor
-            cursorStyle="_"
+            cursorStyle=""
             typeSpeed={100}
             deleteSpeed={50}
             delaySpeed={1000}
