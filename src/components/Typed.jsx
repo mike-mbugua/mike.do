@@ -11,7 +11,7 @@ function Typed() {
         <span style={{ color: "#EF134F" }}>
           <Typewriter
             words={["Frontend", "Backend", "Hosting", "Full-stack !"]}
-            loop={20}
+            loop={true}
             cursor
             cursorStyle=""
             typeSpeed={100}
